@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="STRIKER"
+        android:theme="@style/Theme.Striker"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".auth.SignUpActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".auth.OtpVerificationActivity" android:exported="false" />
+        <activity android:name=".auth.LoginActivity" android:exported="false" />
+        <activity android:name=".home.HomeActivity" android:exported="false" />
+        <activity android:name=".home.PublishActivity" android:exported="false" />
+        <activity android:name=".home.WalletActivity" android:exported="false" />
+
+    </application>
+</manifest>

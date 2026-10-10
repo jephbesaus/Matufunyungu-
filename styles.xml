@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Striker" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/striker_red</item>
+        <item name="colorPrimaryDark">@color/striker_black</item>
+        <item name="colorAccent">@color/striker_red</item>
+        <item name="android:windowBackground">@color/striker_black</item>
+        <item name="android:statusBarColor">@color/striker_black</item>
+    </style>
+</resources>
